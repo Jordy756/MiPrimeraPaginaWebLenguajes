@@ -25,6 +25,32 @@ body {
     gap: 1rem;
 }
 
+.content {
+    display: flex;
+}
+
+.sub-menu {
+    width: 20%;
+    border-left: 0.125rem solid #f2f2f2;
+    margin-top: 3rem;
+}
+
+.sub-menu a {
+    display: block;
+    text-align: center;
+    color: rgba(23, 23, 23, 0.749);
+    margin-bottom: 1.25rem;
+    padding: 0.625rem 1.25rem;
+    background-color: #f2f2f2;
+    border-radius: 0.3125rem;
+    font-size: 1.5em;
+    transition: background-color 300ms ease-in-out;
+}
+
+.sub-menu a:hover {
+    background-color: #dcdcdc;
+}
+
 @media screen and (max-width: 900px) {
     .main {
         padding: 0.2rem 0.5rem;

@@ -16,4 +16,5 @@ a {
 button,
 a {
     cursor: pointer;
+    color: var(--white-color);
 }
