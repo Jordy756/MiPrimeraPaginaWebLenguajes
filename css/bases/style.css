@@ -1,0 +1,32 @@
+:root {
+    --background-color-header: #09acc2;
+    --background-color-main: #004953;
+    --background-color-footer: #333333;
+    --white-color: #ffffff;
+    --red-color: #ed1010;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: var(--white-color);
+}
+
+.main {
+    flex-grow: 1;
+    padding: 1rem 10rem;
+    background-color: var(--background-color-main);
+}
+
+.main-login {
+    display: grid;
+    place-items: center;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+    .main {
+        padding: 0.2rem 0.5rem;
+    }
+}

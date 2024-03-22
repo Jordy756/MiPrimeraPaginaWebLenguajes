@@ -1,0 +1,31 @@
+.articles-section {
+    display: grid;
+    gap: 1rem;
+}
+
+.article-subtitle {
+    margin-bottom: 1rem;
+}
+
+.article-information {
+    display: flex;
+    gap: 1rem;
+}
+
+.article-image {
+    max-width: 18.75rem;
+    max-height: 18.75rem;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 0.2rem;
+}
+
+.article-desciption {
+    max-width: 80ch;
+}
+
+@media screen and (max-width: 650px) {
+    .article-information {
+        flex-wrap: wrap;
+    }
+}

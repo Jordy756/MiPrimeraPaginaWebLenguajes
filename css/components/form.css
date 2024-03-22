@@ -1,0 +1,38 @@
+.form-section {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 0.3rem;
+    border: 0.0625rem solid var(--background-color-header);
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem var(--background-color-header);
+}
+
+.form-title {
+    text-align: center;
+}
+
+.form {
+    display: grid;
+    gap: 1rem;
+}
+
+.form-button {
+    padding: 0.5rem 1rem;
+    background-color: var(--background-color-header);
+    border: none;
+    border-radius: 0.3rem;
+    color: var(--white-color);
+    transition: opacity 300ms ease-in-out, scale 300ms ease-in-out;
+}
+
+.form-button:hover {
+    opacity: 0.9;
+    scale: 1.01;
+}
+
+.form-link {
+    color: var(--white-color);
+}
